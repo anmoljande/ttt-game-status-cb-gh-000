@@ -58,7 +58,7 @@ end
 end
 
   
-def winner?(board)
+def winner(board)
   cx=0 
   co=0
   arr=won?(board)
