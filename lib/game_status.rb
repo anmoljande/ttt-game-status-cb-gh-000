@@ -76,7 +76,6 @@ elsif (co==3)
 return "O"
 else
   nil
-end  
 end 
 end
  
