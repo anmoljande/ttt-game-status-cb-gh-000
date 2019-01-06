@@ -70,12 +70,4 @@ def winner?(board)
       co+=1
       end 
   end
-if(cx==3)
-  return "X"
-elsif (co==3)
-return "O"
-else
-  nil
-end  
-end  
 end 
