@@ -71,5 +71,7 @@ def winner(board)
       co+=1
       end 
   end
+  
+end
  
 end 
