@@ -60,7 +60,7 @@ end
   
 def winner(board)
   cx=0 
-  co=0
+  colear=0
   arr=won?(board)
   if arr!=false
     arr.each do |i|
