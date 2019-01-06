@@ -59,7 +59,6 @@ end
 
   
 def winner?(board)
-  
   cx=0 
   co=0
   arr=won?(board)
@@ -69,8 +68,8 @@ def winner?(board)
         cx+=1
       elsif i=="O"
       co+=1
+      end 
   end
-end
 if(cx==3)
   return "X"
 elsif (co==3)
