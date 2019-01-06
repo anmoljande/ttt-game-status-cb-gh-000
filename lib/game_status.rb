@@ -64,10 +64,10 @@ def winner(board)
   arr=won?(board)
   if arr!=false
     arr.each do |i|
-      puts i
-      if i=="X"
+     puts board[i]
+      if board[i]=="X"
         cx+=1
-      elsif i=="O"
+      elsif board[i]=="O"
       co+=1
       end 
   end
