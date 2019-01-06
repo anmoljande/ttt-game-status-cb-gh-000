@@ -77,7 +77,4 @@ return "O"
 else
   nil
 end    
-    
-    
-    
 end  
