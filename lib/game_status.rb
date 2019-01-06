@@ -69,7 +69,8 @@ def winner?(board)
         cx+=1
       elsif i=="O"
       co+=1
-  end 
+  end
+end
 if(cx==3)
   return "X"
 elsif (co==3)
